@@ -13,6 +13,16 @@
 		787BC49B23983FA20066CAC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787BC49923983FA20066CAC3 /* Main.storyboard */; };
 		787BC49D23983FA50066CAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787BC49C23983FA50066CAC3 /* Assets.xcassets */; };
 		787BC4A023983FA50066CAC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787BC49E23983FA50066CAC3 /* LaunchScreen.storyboard */; };
+		787BC4B22398447D0066CAC3 /* MYRIADPRO-SEMIBOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 787BC4A82398447C0066CAC3 /* MYRIADPRO-SEMIBOLD.OTF */; };
+		787BC4B32398447D0066CAC3 /* MYRIADPRO-SEMIBOLDIT.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 787BC4A92398447C0066CAC3 /* MYRIADPRO-SEMIBOLDIT.OTF */; };
+		787BC4B42398447D0066CAC3 /* MYRIADPRO-BOLDCONDIT.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 787BC4AA2398447C0066CAC3 /* MYRIADPRO-BOLDCONDIT.OTF */; };
+		787BC4B52398447D0066CAC3 /* MYRIADPRO-COND.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 787BC4AB2398447C0066CAC3 /* MYRIADPRO-COND.OTF */; };
+		787BC4B62398447D0066CAC3 /* MYRIADPRO-BOLDCOND.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 787BC4AC2398447C0066CAC3 /* MYRIADPRO-BOLDCOND.OTF */; };
+		787BC4B72398447D0066CAC3 /* MyriadPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787BC4AD2398447C0066CAC3 /* MyriadPro-Light.otf */; };
+		787BC4B82398447D0066CAC3 /* MYRIADPRO-CONDIT.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 787BC4AE2398447D0066CAC3 /* MYRIADPRO-CONDIT.OTF */; };
+		787BC4B92398447D0066CAC3 /* MYRIADPRO-BOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 787BC4AF2398447D0066CAC3 /* MYRIADPRO-BOLD.OTF */; };
+		787BC4BA2398447D0066CAC3 /* MYRIADPRO-BOLDIT.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 787BC4B02398447D0066CAC3 /* MYRIADPRO-BOLDIT.OTF */; };
+		787BC4BB2398447D0066CAC3 /* MYRIADPRO-REGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 787BC4B12398447D0066CAC3 /* MYRIADPRO-REGULAR.OTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		787BC49C23983FA50066CAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		787BC49F23983FA50066CAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		787BC4A123983FA50066CAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787BC4A82398447C0066CAC3 /* MYRIADPRO-SEMIBOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYRIADPRO-SEMIBOLD.OTF"; sourceTree = "<group>"; };
+		787BC4A92398447C0066CAC3 /* MYRIADPRO-SEMIBOLDIT.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYRIADPRO-SEMIBOLDIT.OTF"; sourceTree = "<group>"; };
+		787BC4AA2398447C0066CAC3 /* MYRIADPRO-BOLDCONDIT.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYRIADPRO-BOLDCONDIT.OTF"; sourceTree = "<group>"; };
+		787BC4AB2398447C0066CAC3 /* MYRIADPRO-COND.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYRIADPRO-COND.OTF"; sourceTree = "<group>"; };
+		787BC4AC2398447C0066CAC3 /* MYRIADPRO-BOLDCOND.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYRIADPRO-BOLDCOND.OTF"; sourceTree = "<group>"; };
+		787BC4AD2398447C0066CAC3 /* MyriadPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Light.otf"; sourceTree = "<group>"; };
+		787BC4AE2398447D0066CAC3 /* MYRIADPRO-CONDIT.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYRIADPRO-CONDIT.OTF"; sourceTree = "<group>"; };
+		787BC4AF2398447D0066CAC3 /* MYRIADPRO-BOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYRIADPRO-BOLD.OTF"; sourceTree = "<group>"; };
+		787BC4B02398447D0066CAC3 /* MYRIADPRO-BOLDIT.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYRIADPRO-BOLDIT.OTF"; sourceTree = "<group>"; };
+		787BC4B12398447D0066CAC3 /* MYRIADPRO-REGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYRIADPRO-REGULAR.OTF"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +83,26 @@
 				787BC49C23983FA50066CAC3 /* Assets.xcassets */,
 				787BC49E23983FA50066CAC3 /* LaunchScreen.storyboard */,
 				787BC4A123983FA50066CAC3 /* Info.plist */,
+				787BC4A72398446E0066CAC3 /* Fonts */,
 			);
 			path = BLiSSLiFE;
+			sourceTree = "<group>";
+		};
+		787BC4A72398446E0066CAC3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				787BC4AF2398447D0066CAC3 /* MYRIADPRO-BOLD.OTF */,
+				787BC4AC2398447C0066CAC3 /* MYRIADPRO-BOLDCOND.OTF */,
+				787BC4AA2398447C0066CAC3 /* MYRIADPRO-BOLDCONDIT.OTF */,
+				787BC4B02398447D0066CAC3 /* MYRIADPRO-BOLDIT.OTF */,
+				787BC4AB2398447C0066CAC3 /* MYRIADPRO-COND.OTF */,
+				787BC4AE2398447D0066CAC3 /* MYRIADPRO-CONDIT.OTF */,
+				787BC4AD2398447C0066CAC3 /* MyriadPro-Light.otf */,
+				787BC4B12398447D0066CAC3 /* MYRIADPRO-REGULAR.OTF */,
+				787BC4A82398447C0066CAC3 /* MYRIADPRO-SEMIBOLD.OTF */,
+				787BC4A92398447C0066CAC3 /* MYRIADPRO-SEMIBOLDIT.OTF */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +163,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787BC4B92398447D0066CAC3 /* MYRIADPRO-BOLD.OTF in Resources */,
+				787BC4BA2398447D0066CAC3 /* MYRIADPRO-BOLDIT.OTF in Resources */,
+				787BC4B32398447D0066CAC3 /* MYRIADPRO-SEMIBOLDIT.OTF in Resources */,
+				787BC4B52398447D0066CAC3 /* MYRIADPRO-COND.OTF in Resources */,
+				787BC4B22398447D0066CAC3 /* MYRIADPRO-SEMIBOLD.OTF in Resources */,
 				787BC4A023983FA50066CAC3 /* LaunchScreen.storyboard in Resources */,
+				787BC4B82398447D0066CAC3 /* MYRIADPRO-CONDIT.OTF in Resources */,
+				787BC4B42398447D0066CAC3 /* MYRIADPRO-BOLDCONDIT.OTF in Resources */,
+				787BC4BB2398447D0066CAC3 /* MYRIADPRO-REGULAR.OTF in Resources */,
 				787BC49D23983FA50066CAC3 /* Assets.xcassets in Resources */,
+				787BC4B62398447D0066CAC3 /* MYRIADPRO-BOLDCOND.OTF in Resources */,
 				787BC49B23983FA20066CAC3 /* Main.storyboard in Resources */,
+				787BC4B72398447D0066CAC3 /* MyriadPro-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
