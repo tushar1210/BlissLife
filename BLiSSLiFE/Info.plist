@@ -4,6 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>CircularStd-Medium.ttf</string>
 		<string>MYRIADPRO-SEMIBOLD.OTF</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>

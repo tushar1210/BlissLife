@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78687C9F2398E41700C8F597 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C952398E41500C8F597 /* CircularStd-Medium.otf */; };
+		78687CA02398E41700C8F597 /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C962398E41500C8F597 /* CircularStd-Bold.otf */; };
+		78687CA12398E41700C8F597 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C972398E41500C8F597 /* CircularStd-Book.otf */; };
+		78687CA22398E41700C8F597 /* CircularStd-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C982398E41500C8F597 /* CircularStd-BoldItalic.otf */; };
+		78687CA32398E41700C8F597 /* CircularStd-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C992398E41600C8F597 /* CircularStd-MediumItalic.otf */; };
+		78687CA42398E41700C8F597 /* CircularStd-BookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C9A2398E41600C8F597 /* CircularStd-BookItalic.ttf */; };
+		78687CA52398E41700C8F597 /* CircularStd-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C9B2398E41600C8F597 /* CircularStd-BlackItalic.otf */; };
+		78687CA62398E41700C8F597 /* CircularStd-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C9C2398E41600C8F597 /* CircularStd-Medium.ttf */; };
+		78687CA72398E41700C8F597 /* CircularStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C9D2398E41600C8F597 /* CircularStd-Black.otf */; };
+		78687CA82398E41700C8F597 /* CircularStd-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C9E2398E41600C8F597 /* CircularStd-BookItalic.otf */; };
+		78687CAA2398E72200C8F597 /* Login-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78687CA92398E72200C8F597 /* Login-2.swift */; };
+		7875383E239AEA36006A6EFF /* Calibri Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78753838239AEA35006A6EFF /* Calibri Regular.ttf */; };
+		7875383F239AEA36006A6EFF /* Calibri Bold.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 78753839239AEA35006A6EFF /* Calibri Bold.TTF */; };
+		78753840239AEA36006A6EFF /* Calibri Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7875383A239AEA35006A6EFF /* Calibri Bold Italic.ttf */; };
+		78753841239AEA36006A6EFF /* Calibri Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7875383B239AEA35006A6EFF /* Calibri Light.ttf */; };
+		78753842239AEA36006A6EFF /* Calibri Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7875383C239AEA35006A6EFF /* Calibri Italic.ttf */; };
+		78753843239AEA36006A6EFF /* Calibri Light Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7875383D239AEA36006A6EFF /* Calibri Light Italic.ttf */; };
+		78753845239AED25006A6EFF /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78753844239AED25006A6EFF /* SignUp.swift */; };
+		78753847239D6DD1006A6EFF /* Login-3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78753846239D6DD1006A6EFF /* Login-3.swift */; };
+		7875384A239D6F32006A6EFF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78753849239D6F32006A6EFF /* User.swift */; };
 		787BC49423983FA20066CAC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787BC49323983FA20066CAC3 /* AppDelegate.swift */; };
 		787BC49623983FA20066CAC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787BC49523983FA20066CAC3 /* SceneDelegate.swift */; };
 		787BC49823983FA20066CAC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787BC49723983FA20066CAC3 /* ViewController.swift */; };
@@ -28,6 +48,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78687C952398E41500C8F597 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
+		78687C962398E41500C8F597 /* CircularStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.otf"; sourceTree = "<group>"; };
+		78687C972398E41500C8F597 /* CircularStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.otf"; sourceTree = "<group>"; };
+		78687C982398E41500C8F597 /* CircularStd-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-BoldItalic.otf"; sourceTree = "<group>"; };
+		78687C992398E41600C8F597 /* CircularStd-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-MediumItalic.otf"; sourceTree = "<group>"; };
+		78687C9A2398E41600C8F597 /* CircularStd-BookItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-BookItalic.ttf"; sourceTree = "<group>"; };
+		78687C9B2398E41600C8F597 /* CircularStd-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-BlackItalic.otf"; sourceTree = "<group>"; };
+		78687C9C2398E41600C8F597 /* CircularStd-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.ttf"; sourceTree = "<group>"; };
+		78687C9D2398E41600C8F597 /* CircularStd-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Black.otf"; sourceTree = "<group>"; };
+		78687C9E2398E41600C8F597 /* CircularStd-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-BookItalic.otf"; sourceTree = "<group>"; };
+		78687CA92398E72200C8F597 /* Login-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login-2.swift"; sourceTree = "<group>"; };
+		78753838239AEA35006A6EFF /* Calibri Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Regular.ttf"; sourceTree = "<group>"; };
+		78753839239AEA35006A6EFF /* Calibri Bold.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Bold.TTF"; sourceTree = "<group>"; };
+		7875383A239AEA35006A6EFF /* Calibri Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Bold Italic.ttf"; sourceTree = "<group>"; };
+		7875383B239AEA35006A6EFF /* Calibri Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Light.ttf"; sourceTree = "<group>"; };
+		7875383C239AEA35006A6EFF /* Calibri Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Italic.ttf"; sourceTree = "<group>"; };
+		7875383D239AEA36006A6EFF /* Calibri Light Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Light Italic.ttf"; sourceTree = "<group>"; };
+		78753844239AED25006A6EFF /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		78753846239D6DD1006A6EFF /* Login-3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login-3.swift"; sourceTree = "<group>"; };
+		78753849239D6F32006A6EFF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		787BC49023983FA20066CAC3 /* BLiSSLiFE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLiSSLiFE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		787BC49323983FA20066CAC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		787BC49523983FA20066CAC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +101,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78753848239D6DE3006A6EFF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				78687CA92398E72200C8F597 /* Login-2.swift */,
+				787BC4BE2398AD000066CAC3 /* Login-1.swift */,
+				78753846239D6DD1006A6EFF /* Login-3.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7875384B239D6F38006A6EFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78753849239D6F32006A6EFF /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		787BC48723983FA10066CAC3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +141,7 @@
 				787BC49323983FA20066CAC3 /* AppDelegate.swift */,
 				787BC49523983FA20066CAC3 /* SceneDelegate.swift */,
 				787BC49723983FA20066CAC3 /* ViewController.swift */,
+				7875384B239D6F38006A6EFF /* Model */,
 				787BC49923983FA20066CAC3 /* Main.storyboard */,
 				787BC4C02398AD070066CAC3 /* View */,
 				787BC49C23983FA50066CAC3 /* Assets.xcassets */,
@@ -97,6 +156,22 @@
 		787BC4A72398446E0066CAC3 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				7875383A239AEA35006A6EFF /* Calibri Bold Italic.ttf */,
+				78753839239AEA35006A6EFF /* Calibri Bold.TTF */,
+				7875383C239AEA35006A6EFF /* Calibri Italic.ttf */,
+				7875383D239AEA36006A6EFF /* Calibri Light Italic.ttf */,
+				7875383B239AEA35006A6EFF /* Calibri Light.ttf */,
+				78753838239AEA35006A6EFF /* Calibri Regular.ttf */,
+				78687C9D2398E41600C8F597 /* CircularStd-Black.otf */,
+				78687C9B2398E41600C8F597 /* CircularStd-BlackItalic.otf */,
+				78687C962398E41500C8F597 /* CircularStd-Bold.otf */,
+				78687C982398E41500C8F597 /* CircularStd-BoldItalic.otf */,
+				78687C972398E41500C8F597 /* CircularStd-Book.otf */,
+				78687C9E2398E41600C8F597 /* CircularStd-BookItalic.otf */,
+				78687C9A2398E41600C8F597 /* CircularStd-BookItalic.ttf */,
+				78687C952398E41500C8F597 /* CircularStd-Medium.otf */,
+				78687C9C2398E41600C8F597 /* CircularStd-Medium.ttf */,
+				78687C992398E41600C8F597 /* CircularStd-MediumItalic.otf */,
 				787BC4AF2398447D0066CAC3 /* MYRIADPRO-BOLD.OTF */,
 				787BC4AC2398447C0066CAC3 /* MYRIADPRO-BOLDCOND.OTF */,
 				787BC4AA2398447C0066CAC3 /* MYRIADPRO-BOLDCONDIT.OTF */,
@@ -114,7 +189,8 @@
 		787BC4C02398AD070066CAC3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				787BC4BE2398AD000066CAC3 /* Login-1.swift */,
+				78753844239AED25006A6EFF /* SignUp.swift */,
+				78753848239D6DE3006A6EFF /* Login */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,17 +255,33 @@
 			files = (
 				787BC4B92398447D0066CAC3 /* MYRIADPRO-BOLD.OTF in Resources */,
 				787BC4BA2398447D0066CAC3 /* MYRIADPRO-BOLDIT.OTF in Resources */,
+				78753842239AEA36006A6EFF /* Calibri Italic.ttf in Resources */,
 				787BC4B32398447D0066CAC3 /* MYRIADPRO-SEMIBOLDIT.OTF in Resources */,
+				78687CA62398E41700C8F597 /* CircularStd-Medium.ttf in Resources */,
+				78753841239AEA36006A6EFF /* Calibri Light.ttf in Resources */,
+				78687CA12398E41700C8F597 /* CircularStd-Book.otf in Resources */,
 				787BC4B52398447D0066CAC3 /* MYRIADPRO-COND.OTF in Resources */,
+				78687CA72398E41700C8F597 /* CircularStd-Black.otf in Resources */,
+				7875383E239AEA36006A6EFF /* Calibri Regular.ttf in Resources */,
 				787BC4B22398447D0066CAC3 /* MYRIADPRO-SEMIBOLD.OTF in Resources */,
 				787BC4A023983FA50066CAC3 /* LaunchScreen.storyboard in Resources */,
+				78687CA22398E41700C8F597 /* CircularStd-BoldItalic.otf in Resources */,
 				787BC4B82398447D0066CAC3 /* MYRIADPRO-CONDIT.OTF in Resources */,
 				787BC4B42398447D0066CAC3 /* MYRIADPRO-BOLDCONDIT.OTF in Resources */,
 				787BC4BB2398447D0066CAC3 /* MYRIADPRO-REGULAR.OTF in Resources */,
+				78687CA82398E41700C8F597 /* CircularStd-BookItalic.otf in Resources */,
 				787BC49D23983FA50066CAC3 /* Assets.xcassets in Resources */,
+				78753840239AEA36006A6EFF /* Calibri Bold Italic.ttf in Resources */,
+				7875383F239AEA36006A6EFF /* Calibri Bold.TTF in Resources */,
+				78687CA02398E41700C8F597 /* CircularStd-Bold.otf in Resources */,
+				78753843239AEA36006A6EFF /* Calibri Light Italic.ttf in Resources */,
+				78687CA42398E41700C8F597 /* CircularStd-BookItalic.ttf in Resources */,
+				78687CA52398E41700C8F597 /* CircularStd-BlackItalic.otf in Resources */,
+				78687CA32398E41700C8F597 /* CircularStd-MediumItalic.otf in Resources */,
 				787BC4B62398447D0066CAC3 /* MYRIADPRO-BOLDCOND.OTF in Resources */,
 				787BC49B23983FA20066CAC3 /* Main.storyboard in Resources */,
 				787BC4B72398447D0066CAC3 /* MyriadPro-Light.otf in Resources */,
+				78687C9F2398E41700C8F597 /* CircularStd-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78753845239AED25006A6EFF /* SignUp.swift in Sources */,
+				78753847239D6DD1006A6EFF /* Login-3.swift in Sources */,
 				787BC4BF2398AD000066CAC3 /* Login-1.swift in Sources */,
 				787BC49823983FA20066CAC3 /* ViewController.swift in Sources */,
+				78687CAA2398E72200C8F597 /* Login-2.swift in Sources */,
+				7875384A239D6F32006A6EFF /* User.swift in Sources */,
 				787BC49423983FA20066CAC3 /* AppDelegate.swift in Sources */,
 				787BC49623983FA20066CAC3 /* SceneDelegate.swift in Sources */,
 				787BC4BD239847380066CAC3 /* Extensions.swift in Sources */,
