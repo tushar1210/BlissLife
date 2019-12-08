@@ -57,10 +57,8 @@ final class CustomButton: UIButton {
         if shadowLayer == nil {
             shadowLayer = CAShapeLayer()
             shadowLayer.path = UIBezierPath(roundedRect: bounds, cornerRadius: 33).cgPath
-//            shadowLayer.fillColor = UIColor.white.cgColor
             if self.backgroundColor != nil {
                 shadowLayer.fillColor = self.backgroundColor?.cgColor
-//                self.clipsToBounds=true
             }
             else{
                 shadowLayer.fillColor = UIColor.white.cgColor
@@ -74,10 +72,7 @@ final class CustomButton: UIButton {
             layer.insertSublayer(shadowLayer, at: 0)
             
         }
-//        if self.backgroundColor != .clear {
-//            shadowLayer.fillColor = self.backgroundColor?.cgColor
-//            self.clipsToBounds=true
-//        }
+
     }
 
 }

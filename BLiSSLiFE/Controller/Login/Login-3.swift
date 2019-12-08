@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class Login_3: UIViewController {
 
@@ -17,7 +19,8 @@ class Login_3: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        bgView.roundCorners([.bottomLeft], radius: 80)
+        
     }
     
 

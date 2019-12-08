@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class SignUp: UIViewController {
 
@@ -16,9 +18,9 @@ class SignUp: UIViewController {
     @IBOutlet weak var countryCodeTF: UITextField!
     @IBOutlet weak var phoneTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
+    @IBOutlet weak var confirmButton: UIButton!
     @IBOutlet weak var confirmTF: UITextField!
     @IBOutlet weak var signup: CustomButton!
-    
     @IBOutlet weak var facebookButton: CustomButton!
     @IBOutlet weak var googleButton: CustomButton!
     
@@ -27,6 +29,7 @@ class SignUp: UIViewController {
         super.viewDidLoad()
         facebookButton.layer.cornerRadius = 33
         signup.layer.cornerRadius = 33
+        bgView.roundCorners([.bottomLeft], radius: 80)
         
     }
     
@@ -37,16 +40,44 @@ class SignUp: UIViewController {
         phoneTF.setUnderLine()
         passwordTF.setUnderLine()
         confirmTF.setUnderLine()
-        countryCodeTF.setSideLine()
     }
     
-
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func checkFilled()->Bool{
+        if (usernameTF.text != "" && emailTF.text != "" && countryCodeTF.text != "" && phoneTF.text != "" && passwordTF.text != "" && confirmTF.text != "") {
+            return true
+        }
+        else{
+            let alert = UIAlertController(title: "Incomplete informaton", message: "All fields are mandatory", preferredStyle: .alert)
+            let action = UIAlertAction(title: "OK", style: .default) { (action) in
+                alert.dismiss(animated: true) {
+                    self.passwordTF.text = ""
+                    self.confirmTF.text = ""
+                }
+                
+            }
+            alert.addAction(action)
+            present(alert,animated: true)
+            return false
+        }
+        
+    }
 
     @IBAction func signup(_ sender: Any) {
+        //TODO :- hit signup api
+        
+        if checkFilled(){
+            
+        }
     }
     @IBAction func googleButton(_ sender: Any) {
     }
     @IBAction func facebookButton(_ sender: Any) {
     }
     
+    @IBAction func confirmButton(_ sender: Any) {
+    }
 }

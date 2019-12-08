@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -44,9 +44,11 @@
 		787BC4BB2398447D0066CAC3 /* MYRIADPRO-REGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 787BC4B12398447D0066CAC3 /* MYRIADPRO-REGULAR.OTF */; };
 		787BC4BD239847380066CAC3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787BC4BC239847380066CAC3 /* Extensions.swift */; };
 		787BC4BF2398AD000066CAC3 /* Login-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787BC4BE2398AD000066CAC3 /* Login-1.swift */; };
+		843C8086BD3329EC9AD48BFA /* Pods_BLiSSLiFE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E249C8F310DC2A5D445FD88 /* Pods_BLiSSLiFE.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E249C8F310DC2A5D445FD88 /* Pods_BLiSSLiFE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLiSSLiFE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78687C952398E41500C8F597 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
 		78687C962398E41500C8F597 /* CircularStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.otf"; sourceTree = "<group>"; };
 		78687C972398E41500C8F597 /* CircularStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.otf"; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		78753844239AED25006A6EFF /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		78753846239D6DD1006A6EFF /* Login-3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login-3.swift"; sourceTree = "<group>"; };
 		78753849239D6F32006A6EFF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7875384C239D95D1006A6EFF /* BLiSSLiFE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BLiSSLiFE.entitlements; sourceTree = "<group>"; };
 		787BC49023983FA20066CAC3 /* BLiSSLiFE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLiSSLiFE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		787BC49323983FA20066CAC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		787BC49523983FA20066CAC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 		787BC4B12398447D0066CAC3 /* MYRIADPRO-REGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYRIADPRO-REGULAR.OTF"; sourceTree = "<group>"; };
 		787BC4BC239847380066CAC3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		787BC4BE2398AD000066CAC3 /* Login-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login-1.swift"; sourceTree = "<group>"; };
+		9A519990120CC56753CDB864 /* Pods-BLiSSLiFE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLiSSLiFE.release.xcconfig"; path = "Target Support Files/Pods-BLiSSLiFE/Pods-BLiSSLiFE.release.xcconfig"; sourceTree = "<group>"; };
+		C424818B0AF8AD0CAE91BE3A /* Pods-BLiSSLiFE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLiSSLiFE.debug.xcconfig"; path = "Target Support Files/Pods-BLiSSLiFE/Pods-BLiSSLiFE.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,12 +98,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843C8086BD3329EC9AD48BFA /* Pods_BLiSSLiFE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C2D8367C04469418E496061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E249C8F310DC2A5D445FD88 /* Pods_BLiSSLiFE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		78753848239D6DE3006A6EFF /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +136,8 @@
 			children = (
 				787BC49223983FA20066CAC3 /* BLiSSLiFE */,
 				787BC49123983FA20066CAC3 /* Products */,
+				CCB107ABAB6561C170A8CB72 /* Pods */,
+				6C2D8367C04469418E496061 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +152,7 @@
 		787BC49223983FA20066CAC3 /* BLiSSLiFE */ = {
 			isa = PBXGroup;
 			children = (
+				7875384C239D95D1006A6EFF /* BLiSSLiFE.entitlements */,
 				787BC49323983FA20066CAC3 /* AppDelegate.swift */,
 				787BC49523983FA20066CAC3 /* SceneDelegate.swift */,
 				7875384B239D6F38006A6EFF /* Model */,
@@ -192,6 +209,15 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		CCB107ABAB6561C170A8CB72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C424818B0AF8AD0CAE91BE3A /* Pods-BLiSSLiFE.debug.xcconfig */,
+				9A519990120CC56753CDB864 /* Pods-BLiSSLiFE.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 787BC4A423983FA50066CAC3 /* Build configuration list for PBXNativeTarget "BLiSSLiFE" */;
 			buildPhases = (
+				2ED38A3EC8969B4396DE29E4 /* [CP] Check Pods Manifest.lock */,
 				787BC48C23983FA10066CAC3 /* Sources */,
 				787BC48D23983FA10066CAC3 /* Frameworks */,
 				787BC48E23983FA10066CAC3 /* Resources */,
+				AF6E6D865A4EB319F52E816A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,6 +311,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ED38A3EC8969B4396DE29E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BLiSSLiFE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF6E6D865A4EB319F52E816A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BLiSSLiFE/Pods-BLiSSLiFE-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BLiSSLiFE/Pods-BLiSSLiFE-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BLiSSLiFE/Pods-BLiSSLiFE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		787BC48C23983FA10066CAC3 /* Sources */ = {
@@ -438,11 +508,14 @@
 		};
 		787BC4A523983FA50066CAC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C424818B0AF8AD0CAE91BE3A /* Pods-BLiSSLiFE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BLiSSLiFE/BLiSSLiFE.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SDDB7WX63J;
 				INFOPLIST_FILE = BLiSSLiFE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,11 +529,14 @@
 		};
 		787BC4A623983FA50066CAC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A519990120CC56753CDB864 /* Pods-BLiSSLiFE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BLiSSLiFE/BLiSSLiFE.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SDDB7WX63J;
 				INFOPLIST_FILE = BLiSSLiFE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
