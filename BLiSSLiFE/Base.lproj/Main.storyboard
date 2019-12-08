@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="89a-hM-fJg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AaT-Um-265">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
@@ -121,6 +121,9 @@
                                         <state key="normal" title="sign up">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="89a-hM-fJg" kind="show" id="4W4-4U-afI"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -182,7 +185,7 @@
         <!--Sign Up-->
         <scene sceneID="Y8g-Pp-3We">
             <objects>
-                <viewController id="89a-hM-fJg" customClass="SignUp" customModule="BLiSSLiFE" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="89a-hM-fJg" customClass="SignUp" customModule="BLiSSLiFE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MF0-6E-6oA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -256,9 +259,10 @@
                                 <color key="textColor" red="0.62352941176470589" green="0.62352941176470589" blue="0.62352941176470589" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7L4-I0-5wy">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7L4-I0-5wy" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
                                 <rect key="frame" x="56" y="672.33333333333326" width="281" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="13"/>
                                 <inset key="titleEdgeInsets" minX="19" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="continue with google" image="google_PNG19635">
@@ -268,16 +272,16 @@
                                     <action selector="googleButton:" destination="89a-hM-fJg" eventType="touchUpInside" id="4vG-2M-Scr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TvC-iv-k0M">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TvC-iv-k0M" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
                                 <rect key="frame" x="52" y="553.33333333333326" width="281.33333333333331" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.83529411760000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="15"/>
-                                <state key="normal" title="login">
+                                <state key="normal" title="signup">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="loginButton:" destination="89a-hM-fJg" eventType="touchUpInside" id="NJI-Ss-Q1I"/>
+                                    <action selector="signup:" destination="89a-hM-fJg" eventType="touchUpInside" id="Frl-lo-xLc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHh-qv-QU1">
@@ -288,10 +292,10 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LeY-1b-b6V">
-                                <rect key="frame" x="46" y="719.33333333333326" width="281" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LeY-1b-b6V" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
+                                <rect key="frame" x="56" y="719.33333333333326" width="281" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.28235294117647058" green="0.36862745098039218" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.28235294119999998" green="0.36862745099999999" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="13"/>
                                 <inset key="titleEdgeInsets" minX="19" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="continue with facebook" image="facebook-icon-white-logo-png-transparent">
@@ -310,7 +314,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Xzf-Is-0bk"/>
                     </view>
+                    <navigationItem key="navigationItem" id="hk0-uf-o6O"/>
                     <connections>
+                        <outlet property="bgView" destination="bDc-V5-cZq" id="Lma-h7-MrX"/>
                         <outlet property="confirmTF" destination="WVZ-1P-oav" id="bXJ-yv-mA0"/>
                         <outlet property="countryCodeTF" destination="xeq-8s-Saz" id="gEO-8Y-g1C"/>
                         <outlet property="emailTF" destination="QZY-5a-ltp" id="iF5-jZ-aiw"/>
@@ -318,6 +324,7 @@
                         <outlet property="googleButton" destination="7L4-I0-5wy" id="DSK-7h-joL"/>
                         <outlet property="passwordTF" destination="bUr-q3-rts" id="iTX-6v-vEj"/>
                         <outlet property="phoneTF" destination="9FL-oc-f9w" id="FDv-1D-UbR"/>
+                        <outlet property="signup" destination="TvC-iv-k0M" id="M3m-fP-L7t"/>
                         <outlet property="usernameTF" destination="g2F-av-cbS" id="grq-kU-fFI"/>
                     </connections>
                 </viewController>
@@ -359,7 +366,7 @@
                                 <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IvE-KG-fHz">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IvE-KG-fHz" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
                                 <rect key="frame" x="46" y="554.33333333333326" width="281.33333333333331" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.83529411760000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -385,6 +392,7 @@
                         <viewLayoutGuide key="safeArea" id="sOa-Nz-GYo"/>
                     </view>
                     <connections>
+                        <outlet property="bgView" destination="Icj-iS-Efg" id="SLP-4G-Qrb"/>
                         <outlet property="login" destination="IvE-KG-fHz" id="gUe-9T-CRT"/>
                         <outlet property="passwordTF" destination="gN7-U7-240" id="il0-N9-4Nr"/>
                         <outlet property="userNameTF" destination="bOV-yT-2Rf" id="cBB-h9-Thq"/>

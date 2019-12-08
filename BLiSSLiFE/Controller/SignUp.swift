@@ -10,20 +10,23 @@ import UIKit
 
 class SignUp: UIViewController {
 
+    @IBOutlet weak var bgView: UIView!
     @IBOutlet weak var usernameTF: UITextField!
     @IBOutlet weak var emailTF: UITextField!
     @IBOutlet weak var countryCodeTF: UITextField!
     @IBOutlet weak var phoneTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
     @IBOutlet weak var confirmTF: UITextField!
+    @IBOutlet weak var signup: CustomButton!
     
-    @IBOutlet weak var facebookButton: UIButton!
-    @IBOutlet weak var googleButton: UIButton!
+    @IBOutlet weak var facebookButton: CustomButton!
+    @IBOutlet weak var googleButton: CustomButton!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        facebookButton.layer.cornerRadius = 33
+        signup.layer.cornerRadius = 33
         
     }
     
@@ -38,7 +41,8 @@ class SignUp: UIViewController {
     }
     
 
-    @IBAction func loginButton(_ sender: Any) {
+
+    @IBAction func signup(_ sender: Any) {
     }
     @IBAction func googleButton(_ sender: Any) {
     }
