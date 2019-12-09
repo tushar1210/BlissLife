@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AaT-Um-265">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qAl-wf-Ncn">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
@@ -111,6 +111,9 @@
                                         <state key="normal" title="login">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="qAl-wf-Ncn" kind="show" id="cBF-pV-1Fk"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjE-zd-w83" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
                                         <rect key="frame" x="65.666666666666686" y="22" width="281" height="31"/>
@@ -297,6 +300,9 @@
                                 <state key="normal" title="Already have an account ? Log in">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="qAl-wf-Ncn" kind="show" id="rIk-EP-UAw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LeY-1b-b6V" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
                                 <rect key="frame" x="56" y="719.33333333333326" width="281" height="31"/>
@@ -342,7 +348,7 @@
         <!--Login3-->
         <scene sceneID="rHT-Sc-uTJ">
             <objects>
-                <viewController id="qAl-wf-Ncn" customClass="Login_3" customModule="BLiSSLiFE" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="qAl-wf-Ncn" customClass="Login_3" customModule="BLiSSLiFE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fdS-Nb-SY4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -393,11 +399,15 @@
                                 <state key="normal" title="Don't have an account ? Sign Up">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="89a-hM-fJg" kind="show" id="Oi7-HU-y4N"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="sOa-Nz-GYo"/>
                     </view>
+                    <navigationItem key="navigationItem" id="W9z-kk-F9u"/>
                     <connections>
                         <outlet property="bgView" destination="Icj-iS-Efg" id="SLP-4G-Qrb"/>
                         <outlet property="login" destination="IvE-KG-fHz" id="gUe-9T-CRT"/>
@@ -414,4 +424,8 @@
         <image name="facebook-icon-white-logo-png-transparent" width="36" height="35"/>
         <image name="google_PNG19635" width="31" height="31"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="cBF-pV-1Fk"/>
+        <segue reference="Oi7-HU-y4N"/>
+    </inferredMetricsTieBreakers>
 </document>
