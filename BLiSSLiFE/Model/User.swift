@@ -15,6 +15,7 @@ struct User{
     var age=Dictionary<String, String>()
     var height=String()
     var weight=String()
-    
+    var number=String()
+    var username=String()
     
 }

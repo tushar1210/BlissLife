@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7848A32B239F69E600778AE5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7848A32A239F69E600778AE5 /* Constants.swift */; };
 		78687C9F2398E41700C8F597 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C952398E41500C8F597 /* CircularStd-Medium.otf */; };
 		78687CA02398E41700C8F597 /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C962398E41500C8F597 /* CircularStd-Bold.otf */; };
 		78687CA12398E41700C8F597 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C972398E41500C8F597 /* CircularStd-Book.otf */; };
@@ -44,11 +45,13 @@
 		787BC4BB2398447D0066CAC3 /* MYRIADPRO-REGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 787BC4B12398447D0066CAC3 /* MYRIADPRO-REGULAR.OTF */; };
 		787BC4BD239847380066CAC3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787BC4BC239847380066CAC3 /* Extensions.swift */; };
 		787BC4BF2398AD000066CAC3 /* Login-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787BC4BE2398AD000066CAC3 /* Login-1.swift */; };
+		78B3A6D423A1E7100059B3AF /* PersonalDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B3A6D323A1E7100059B3AF /* PersonalDetails.swift */; };
 		843C8086BD3329EC9AD48BFA /* Pods_BLiSSLiFE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E249C8F310DC2A5D445FD88 /* Pods_BLiSSLiFE.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E249C8F310DC2A5D445FD88 /* Pods_BLiSSLiFE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLiSSLiFE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7848A32A239F69E600778AE5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		78687C952398E41500C8F597 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
 		78687C962398E41500C8F597 /* CircularStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.otf"; sourceTree = "<group>"; };
 		78687C972398E41500C8F597 /* CircularStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.otf"; sourceTree = "<group>"; };
@@ -89,6 +92,7 @@
 		787BC4B12398447D0066CAC3 /* MYRIADPRO-REGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYRIADPRO-REGULAR.OTF"; sourceTree = "<group>"; };
 		787BC4BC239847380066CAC3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		787BC4BE2398AD000066CAC3 /* Login-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login-1.swift"; sourceTree = "<group>"; };
+		78B3A6D323A1E7100059B3AF /* PersonalDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetails.swift; sourceTree = "<group>"; };
 		9A519990120CC56753CDB864 /* Pods-BLiSSLiFE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLiSSLiFE.release.xcconfig"; path = "Target Support Files/Pods-BLiSSLiFE/Pods-BLiSSLiFE.release.xcconfig"; sourceTree = "<group>"; };
 		C424818B0AF8AD0CAE91BE3A /* Pods-BLiSSLiFE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLiSSLiFE.debug.xcconfig"; path = "Target Support Files/Pods-BLiSSLiFE/Pods-BLiSSLiFE.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,9 +159,10 @@
 				7875384C239D95D1006A6EFF /* BLiSSLiFE.entitlements */,
 				787BC49323983FA20066CAC3 /* AppDelegate.swift */,
 				787BC49523983FA20066CAC3 /* SceneDelegate.swift */,
+				7848A32A239F69E600778AE5 /* Constants.swift */,
+				787BC49923983FA20066CAC3 /* Main.storyboard */,
 				7875384B239D6F38006A6EFF /* Model */,
 				787BC4C02398AD070066CAC3 /* Controller */,
-				787BC49923983FA20066CAC3 /* Main.storyboard */,
 				787BC49C23983FA50066CAC3 /* Assets.xcassets */,
 				787BC49E23983FA50066CAC3 /* LaunchScreen.storyboard */,
 				787BC4BC239847380066CAC3 /* Extensions.swift */,
@@ -203,6 +208,7 @@
 		787BC4C02398AD070066CAC3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				78B3A6D323A1E7100059B3AF /* PersonalDetails.swift */,
 				78753844239AED25006A6EFF /* SignUp.swift */,
 				78753848239D6DE3006A6EFF /* Login */,
 			);
@@ -363,10 +369,12 @@
 				78753847239D6DD1006A6EFF /* Login-3.swift in Sources */,
 				787BC4BF2398AD000066CAC3 /* Login-1.swift in Sources */,
 				78687CAA2398E72200C8F597 /* Login-2.swift in Sources */,
+				78B3A6D423A1E7100059B3AF /* PersonalDetails.swift in Sources */,
 				7875384A239D6F32006A6EFF /* User.swift in Sources */,
 				787BC49423983FA20066CAC3 /* AppDelegate.swift in Sources */,
 				787BC49623983FA20066CAC3 /* SceneDelegate.swift in Sources */,
 				787BC4BD239847380066CAC3 /* Extensions.swift in Sources */,
+				7848A32B239F69E600778AE5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

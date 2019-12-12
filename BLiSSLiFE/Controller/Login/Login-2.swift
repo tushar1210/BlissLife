@@ -19,17 +19,6 @@ class Login_2: UIViewController {
         
         
         
-//        setUpButtons(globeButton: login)
-
-        
-    }
-    func setUpButtons(globeButton:UIButton){
-        globeButton.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
-        globeButton.layer.shadowOffset = CGSize(width: 0.0, height: 2.0)
-        globeButton.layer.shadowOpacity = 1.0
-        globeButton.layer.shadowRadius = 0.0
-        globeButton.layer.masksToBounds = false
-        globeButton.layer.cornerRadius = 4.0
     }
 
 }
