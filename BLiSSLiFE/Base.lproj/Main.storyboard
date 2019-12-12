@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="89a-hM-fJg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Z0Y-cj-tOs">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -371,22 +371,32 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HSQ-lO-3Bm">
                                 <rect key="frame" x="27" y="363" width="321" height="142"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gN7-U7-240">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gN7-U7-240">
                                         <rect key="frame" x="20" y="88" width="281" height="34"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="QWv-XK-Q4t"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username/Email" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bOV-yT-2Rf">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username/Email" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bOV-yT-2Rf">
                                         <rect key="frame" x="20" y="20" width="281" height="34"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="8la-Y0-ysP"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
+                                    <constraint firstItem="gN7-U7-240" firstAttribute="width" secondItem="HSQ-lO-3Bm" secondAttribute="width" multiplier="0.875389" id="17v-fW-dcf"/>
                                     <constraint firstAttribute="width" secondItem="HSQ-lO-3Bm" secondAttribute="height" multiplier="321:142" id="4HO-os-Ndl"/>
+                                    <constraint firstItem="bOV-yT-2Rf" firstAttribute="centerX" secondItem="HSQ-lO-3Bm" secondAttribute="centerX" id="8IC-gv-EfI"/>
+                                    <constraint firstItem="bOV-yT-2Rf" firstAttribute="width" secondItem="HSQ-lO-3Bm" secondAttribute="width" multiplier="0.875389" id="JqG-sr-YRj"/>
+                                    <constraint firstItem="bOV-yT-2Rf" firstAttribute="top" secondItem="HSQ-lO-3Bm" secondAttribute="top" constant="20" id="X4W-ic-F9m"/>
+                                    <constraint firstAttribute="bottom" secondItem="gN7-U7-240" secondAttribute="bottom" constant="20" id="bA6-eg-tLK"/>
+                                    <constraint firstItem="gN7-U7-240" firstAttribute="centerX" secondItem="HSQ-lO-3Bm" secondAttribute="centerX" id="ubP-n4-CRG"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IvE-KG-fHz" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
@@ -477,10 +487,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jDM-QJ-j5c" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jDM-QJ-j5c" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
                                 <rect key="frame" x="43" y="293.66666666666663" width="66.333333333333329" height="33.333333333333329"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Male"/>
                                 <connections>
                                     <action selector="male:" destination="Z0Y-cj-tOs" eventType="touchUpInside" id="U4A-9i-Wx4"/>
                                 </connections>
@@ -488,7 +498,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDg-Ku-rDn" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
                                 <rect key="frame" x="245" y="293.66666666666663" width="66.333333333333329" height="33.333333333333329"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Other"/>
                                 <connections>
                                     <action selector="other:" destination="Z0Y-cj-tOs" eventType="touchUpInside" id="dNK-7a-e6a"/>
                                 </connections>
@@ -496,27 +506,54 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ufl-vX-Nsv" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
                                 <rect key="frame" x="138" y="293.66666666666663" width="66.333333333333329" height="33.333333333333329"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Female"/>
                                 <connections>
                                     <action selector="female:" destination="Z0Y-cj-tOs" eventType="touchUpInside" id="tLC-7N-Inm"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKc-p8-Heo">
-                                <rect key="frame" x="43" y="389" width="24" height="15"/>
+                                <rect key="frame" x="43" y="363" width="24" height="15"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wpf-Zp-ByX" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
+                                <rect key="frame" x="45" y="385" width="73" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Day"/>
+                                <connections>
+                                    <action selector="day:" destination="Z0Y-cj-tOs" eventType="touchUpInside" id="ynW-ls-boV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybD-3Z-WhR" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
+                                <rect key="frame" x="237" y="385" width="73" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Year"/>
+                                <connections>
+                                    <action selector="year:" destination="Z0Y-cj-tOs" eventType="touchUpInside" id="hnL-D1-i0j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CO4-Ec-0kz" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
+                                <rect key="frame" x="141" y="385" width="73" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Month"/>
+                                <connections>
+                                    <action selector="month:" destination="Z0Y-cj-tOs" eventType="touchUpInside" id="0rH-In-gQK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="1v7-4q-ZNS"/>
                     </view>
                     <connections>
                         <outlet property="bgView" destination="2TW-jv-RRz" id="3e0-dN-8DW"/>
+                        <outlet property="day" destination="Wpf-Zp-ByX" id="NIk-6d-LAj"/>
                         <outlet property="female" destination="Ufl-vX-Nsv" id="Ss0-GM-cvZ"/>
                         <outlet property="male" destination="jDM-QJ-j5c" id="p67-3b-qj1"/>
+                        <outlet property="month" destination="CO4-Ec-0kz" id="gV5-DS-0Y6"/>
                         <outlet property="other" destination="eDg-Ku-rDn" id="x4B-6K-AIr"/>
+                        <outlet property="year" destination="ybD-3Z-WhR" id="3Kg-mE-Jgw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="29U-Cx-DFE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
