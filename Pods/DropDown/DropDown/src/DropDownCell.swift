@@ -53,6 +53,7 @@ extension DropDownCell {
 				if selected {
 					self.backgroundColor = selectedBackgroundColor
                     self.optionLabel.textColor = self.highlightTextColor
+//                    self.optionLabel.font = UIFont(name: self.optionLabel.font.fontName, size: 8)
 				} else {
 					self.backgroundColor = .clear
                     self.optionLabel.textColor = self.normalTextColor

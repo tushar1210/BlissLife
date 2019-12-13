@@ -19,6 +19,8 @@
 		78687CA72398E41700C8F597 /* CircularStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C9D2398E41600C8F597 /* CircularStd-Black.otf */; };
 		78687CA82398E41700C8F597 /* CircularStd-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C9E2398E41600C8F597 /* CircularStd-BookItalic.otf */; };
 		78687CAA2398E72200C8F597 /* Login-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78687CA92398E72200C8F597 /* Login-2.swift */; };
+		787491A423A3526B00177BB0 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787491A223A3526B00177BB0 /* ProfileCell.swift */; };
+		787491A523A3526B00177BB0 /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 787491A323A3526B00177BB0 /* ProfileCell.xib */; };
 		7875383E239AEA36006A6EFF /* Calibri Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78753838239AEA35006A6EFF /* Calibri Regular.ttf */; };
 		7875383F239AEA36006A6EFF /* Calibri Bold.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 78753839239AEA35006A6EFF /* Calibri Bold.TTF */; };
 		78753840239AEA36006A6EFF /* Calibri Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7875383A239AEA35006A6EFF /* Calibri Bold Italic.ttf */; };
@@ -63,6 +65,8 @@
 		78687C9D2398E41600C8F597 /* CircularStd-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Black.otf"; sourceTree = "<group>"; };
 		78687C9E2398E41600C8F597 /* CircularStd-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-BookItalic.otf"; sourceTree = "<group>"; };
 		78687CA92398E72200C8F597 /* Login-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login-2.swift"; sourceTree = "<group>"; };
+		787491A223A3526B00177BB0 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		787491A323A3526B00177BB0 /* ProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
 		78753838239AEA35006A6EFF /* Calibri Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Regular.ttf"; sourceTree = "<group>"; };
 		78753839239AEA35006A6EFF /* Calibri Bold.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Bold.TTF"; sourceTree = "<group>"; };
 		7875383A239AEA35006A6EFF /* Calibri Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Bold Italic.ttf"; sourceTree = "<group>"; };
@@ -117,6 +121,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		787491A623A3527100177BB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				787491A223A3526B00177BB0 /* ProfileCell.swift */,
+				787491A323A3526B00177BB0 /* ProfileCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		78753848239D6DE3006A6EFF /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +175,7 @@
 				7848A32A239F69E600778AE5 /* Constants.swift */,
 				787BC49923983FA20066CAC3 /* Main.storyboard */,
 				7875384B239D6F38006A6EFF /* Model */,
+				787491A623A3527100177BB0 /* View */,
 				787BC4C02398AD070066CAC3 /* Controller */,
 				787BC49C23983FA50066CAC3 /* Assets.xcassets */,
 				787BC49E23983FA50066CAC3 /* LaunchScreen.storyboard */,
@@ -299,6 +313,7 @@
 				78687CA22398E41700C8F597 /* CircularStd-BoldItalic.otf in Resources */,
 				787BC4B82398447D0066CAC3 /* MYRIADPRO-CONDIT.OTF in Resources */,
 				787BC4B42398447D0066CAC3 /* MYRIADPRO-BOLDCONDIT.OTF in Resources */,
+				787491A523A3526B00177BB0 /* ProfileCell.xib in Resources */,
 				787BC4BB2398447D0066CAC3 /* MYRIADPRO-REGULAR.OTF in Resources */,
 				78687CA82398E41700C8F597 /* CircularStd-BookItalic.otf in Resources */,
 				787BC49D23983FA50066CAC3 /* Assets.xcassets in Resources */,
@@ -374,6 +389,7 @@
 				787BC49423983FA20066CAC3 /* AppDelegate.swift in Sources */,
 				787BC49623983FA20066CAC3 /* SceneDelegate.swift in Sources */,
 				787BC4BD239847380066CAC3 /* Extensions.swift in Sources */,
+				787491A423A3526B00177BB0 /* ProfileCell.swift in Sources */,
 				7848A32B239F69E600778AE5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

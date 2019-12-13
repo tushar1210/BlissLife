@@ -1045,6 +1045,7 @@ extension DropDown {
 extension DropDown: UITableViewDataSource, UITableViewDelegate {
 
 	public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        tableView.showsVerticalScrollIndicator = false
 		return dataSource.count
 	}
 
@@ -1061,13 +1062,12 @@ extension DropDown: UITableViewDataSource, UITableViewDelegate {
 		if index >= 0 && index < localizationKeysDataSource.count {
 			cell.accessibilityIdentifier = localizationKeysDataSource[index]
 		}
-		
 		cell.optionLabel.textColor = textColor
 		cell.optionLabel.font = textFont
 		cell.selectedBackgroundColor = selectionBackgroundColor
         cell.highlightTextColor = selectedTextColor
         cell.normalTextColor = textColor
-		
+
 		if let cellConfiguration = cellConfiguration {
 			cell.optionLabel.text = cellConfiguration(index, dataSource[index])
 		} else {

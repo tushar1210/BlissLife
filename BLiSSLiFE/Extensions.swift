@@ -57,7 +57,7 @@ final class CustomButton: UIButton {
 
         if shadowLayer == nil {
             shadowLayer = CAShapeLayer()
-            shadowLayer.path = UIBezierPath(roundedRect: bounds, cornerRadius: 33).cgPath
+            shadowLayer.path = UIBezierPath(roundedRect: bounds, cornerRadius: self.layer.cornerRadius).cgPath
             if self.backgroundColor != nil {
                 shadowLayer.fillColor = self.backgroundColor?.cgColor
             }
@@ -67,13 +67,16 @@ final class CustomButton: UIButton {
             shadowLayer.shadowColor = UIColor.gray.cgColor
             shadowLayer.shadowPath = shadowLayer.path
             shadowLayer.shadowOffset = CGSize(width: 0.0, height: 3.0)
-            shadowLayer.shadowOpacity = 0.4
+            shadowLayer.shadowOpacity = 0.3
             shadowLayer.shadowRadius = 2
 
             layer.insertSublayer(shadowLayer, at: 0)
             
         }
 
+    }
+    func bgColor(color:UIColor){
+        shadowLayer.fillColor = color.cgColor
     }
 
 }
@@ -110,3 +113,30 @@ extension UITextField {
     }
 }
 
+extension UIColor {
+    public convenience init?(hex: String) {
+        let r, g, b, a: CGFloat
+
+        if hex.hasPrefix("#") {
+            let start = hex.index(hex.startIndex, offsetBy: 1)
+            let hexColor = String(hex[start...])
+
+            if hexColor.count == 8 {
+                let scanner = Scanner(string: hexColor)
+                var hexNumber: UInt64 = 0
+
+                if scanner.scanHexInt64(&hexNumber) {
+                    r = CGFloat((hexNumber & 0xff000000) >> 24) / 255
+                    g = CGFloat((hexNumber & 0x00ff0000) >> 16) / 255
+                    b = CGFloat((hexNumber & 0x0000ff00) >> 8) / 255
+                    a = CGFloat(hexNumber & 0x000000ff) / 255
+
+                    self.init(red: r, green: g, blue: b, alpha: a)
+                    return
+                }
+            }
+        }
+
+        return nil
+    }
+}
