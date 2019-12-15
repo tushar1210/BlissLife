@@ -18,6 +18,9 @@ class PersonalDetails: UIViewController {
     @IBOutlet weak var day: CustomButton!
     @IBOutlet weak var month: CustomButton!
     @IBOutlet weak var year: CustomButton!
+    @IBOutlet weak var feet: UITextField!
+    @IBOutlet weak var inches: UITextField!
+    @IBOutlet weak var weight: UITextField!
     
     let dayDropDown = DropDown()
     let monthDropDown = DropDown()
@@ -64,7 +67,6 @@ class PersonalDetails: UIViewController {
             $0.cellNib = UINib(nibName: "ProfileCell", bundle: nil)
             $0.backgroundColor = .white
             $0.selectionBackgroundColor = .systemYellow
-            
             $0.customCellConfiguration = { (index: Index, item: String, cell: DropDownCell) -> Void in
                 guard let cell = cell as? ProfileCell else { return }
                 
