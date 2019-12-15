@@ -573,7 +573,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JW4-kT-Crc">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JW4-kT-Crc">
                                 <rect key="frame" x="45" y="482" width="42" height="14"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="11"/>
@@ -586,7 +586,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DxZ-kE-dTS">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DxZ-kE-dTS">
                                 <rect key="frame" x="136" y="482" width="42" height="14"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="11"/>
@@ -613,7 +613,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h51-Pr-UcH">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h51-Pr-UcH">
                                 <rect key="frame" x="45" y="548" width="42" height="14"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="11"/>
@@ -622,7 +622,21 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxD-2G-ter" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
                                 <rect key="frame" x="118" y="670" width="136" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="15"/>
+                                <state key="normal" title="done">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="done:" destination="Z0Y-cj-tOs" eventType="touchUpInside" id="bdK-g1-jvS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egd-T2-MJ1">
+                                <rect key="frame" x="150" y="725" width="75" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="15"/>
+                                <state key="normal" title="skip for now">
+                                    <color key="titleColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -631,12 +645,14 @@
                     <connections>
                         <outlet property="bgView" destination="2TW-jv-RRz" id="3e0-dN-8DW"/>
                         <outlet property="day" destination="Wpf-Zp-ByX" id="NIk-6d-LAj"/>
+                        <outlet property="done" destination="rxD-2G-ter" id="WY1-9Q-Dca"/>
                         <outlet property="feet" destination="JW4-kT-Crc" id="Zd4-Xk-CNL"/>
                         <outlet property="female" destination="Ufl-vX-Nsv" id="Ss0-GM-cvZ"/>
                         <outlet property="inches" destination="DxZ-kE-dTS" id="qWO-xP-0iO"/>
                         <outlet property="male" destination="jDM-QJ-j5c" id="p67-3b-qj1"/>
                         <outlet property="month" destination="CO4-Ec-0kz" id="gV5-DS-0Y6"/>
                         <outlet property="other" destination="eDg-Ku-rDn" id="x4B-6K-AIr"/>
+                        <outlet property="skip" destination="egd-T2-MJ1" id="HDv-yT-ria"/>
                         <outlet property="weight" destination="h51-Pr-UcH" id="3KJ-cc-RpY"/>
                         <outlet property="year" destination="ybD-3Z-WhR" id="3Kg-mE-Jgw"/>
                     </connections>

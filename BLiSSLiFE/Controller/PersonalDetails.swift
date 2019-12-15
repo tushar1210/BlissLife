@@ -21,6 +21,8 @@ class PersonalDetails: UIViewController {
     @IBOutlet weak var feet: UITextField!
     @IBOutlet weak var inches: UITextField!
     @IBOutlet weak var weight: UITextField!
+    @IBOutlet weak var done: CustomButton!
+    @IBOutlet weak var skip: UIButton!
     
     let dayDropDown = DropDown()
     let monthDropDown = DropDown()
@@ -40,9 +42,13 @@ class PersonalDetails: UIViewController {
         male.layer.cornerRadius = 9
         female.layer.cornerRadius = 9
         other.layer.cornerRadius = 9
+        done.layer.cornerRadius = 33
         day.layer.cornerRadius = 6
         month.layer.cornerRadius = 6
         year.layer.cornerRadius = 6
+        feet.setUnderLine()
+        inches.setUnderLine()
+        weight.setUnderLine()
         setupDropDown()
     }
     
@@ -120,5 +126,26 @@ class PersonalDetails: UIViewController {
         female.bgColor(color: .white)
         male.bgColor(color: .white)
         gender = "Other"
+    }
+    @IBAction func done(_ sender: Any) {
+        if dayDropDown.selectedItem != nil {
+            user.age["day"] = dayDropDown.selectedItem
+        }
+        if monthDropDown.selectedItem != nil {
+            user.age["month"] = monthDropDown.selectedItem
+        }
+        if yearDropDown.selectedItem != nil {
+            user.age["day"] = yearDropDown.selectedItem
+        }
+        if let f = feet.text {
+            user.height["feet"] = f
+        }
+        print(user.height["feet"]!)
+        if let i = inches.text{
+            user.height["inches"] = i
+        }
+        if let k = weight.text{
+            user.weight = k
+        }
     }
 }

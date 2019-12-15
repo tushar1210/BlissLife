@@ -13,7 +13,7 @@ struct User{
     var password=String()
     var gender=String()
     var age=Dictionary<String, String>()
-    var height=String()
+    var height=Dictionary<String, String>()
     var weight=String()
     var number=String()
     var username=String()
