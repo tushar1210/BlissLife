@@ -147,5 +147,7 @@ class PersonalDetails: UIViewController {
         if let k = weight.text{
             user.weight = k
         }
+        
+        
     }
 }

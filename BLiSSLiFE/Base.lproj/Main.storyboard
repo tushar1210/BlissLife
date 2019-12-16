@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Z0Y-cj-tOs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="I8b-tg-HnC">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -251,10 +251,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="7Zr-bt-gy4">
-                                <rect key="frame" x="50" y="634.33333333333337" width="174" height="82"/>
+                                <rect key="frame" x="50" y="634.33333333333337" width="210" height="148"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7L4-I0-5wy" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="174" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="210" height="62"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="13"/>
                                         <inset key="titleEdgeInsets" minX="19" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -267,7 +267,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LeY-1b-b6V" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="47" width="174" height="35"/>
+                                        <rect key="frame" x="0.0" y="78" width="210" height="70"/>
                                         <color key="backgroundColor" red="0.28235294119999998" green="0.36862745099999999" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="13"/>
                                         <inset key="titleEdgeInsets" minX="19" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -573,11 +573,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JW4-kT-Crc">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JW4-kT-Crc">
                                 <rect key="frame" x="45" y="482" width="42" height="14"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="11"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ba-e9-gBM">
                                 <rect key="frame" x="45" y="515" width="40" height="15"/>
@@ -586,11 +586,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DxZ-kE-dTS">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DxZ-kE-dTS">
                                 <rect key="frame" x="136" y="482" width="42" height="14"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="11"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="feet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uz6-D8-oi8">
                                 <rect key="frame" x="94" y="486" width="20" height="14"/>
@@ -613,11 +613,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h51-Pr-UcH">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h51-Pr-UcH">
                                 <rect key="frame" x="45" y="548" width="42" height="14"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="11"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxD-2G-ter" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
                                 <rect key="frame" x="118" y="670" width="136" height="37"/>
@@ -660,6 +660,77 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="29U-Cx-DFE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2840.8000000000002" y="127.83251231527095"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hK8-Ar-C1w">
+            <objects>
+                <viewController id="I8b-tg-HnC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7O7-2l-Rej">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RJL-eY-2qF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="483"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="What are your health parameters?" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Atz-sg-0Mx">
+                                        <rect key="frame" x="74.666666666666686" y="248" width="226" height="75"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Atz-sg-0Mx" secondAttribute="height" multiplier="226:75" id="RFK-y7-lus"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="24"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.83529411760000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Atz-sg-0Mx" secondAttribute="bottom" constant="160" id="E29-Ap-uTa"/>
+                                    <constraint firstItem="Atz-sg-0Mx" firstAttribute="centerX" secondItem="RJL-eY-2qF" secondAttribute="centerX" id="K13-xU-tWE"/>
+                                    <constraint firstItem="Atz-sg-0Mx" firstAttribute="width" secondItem="RJL-eY-2qF" secondAttribute="width" multiplier="0.602667" id="qkb-DK-5Wu"/>
+                                    <constraint firstAttribute="width" secondItem="RJL-eY-2qF" secondAttribute="height" multiplier="125:161" id="u6O-pq-6y7"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XM-QF-Rqj" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
+                                <rect key="frame" x="62" y="640.66666666666663" width="251" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1XM-QF-Rqj" secondAttribute="height" multiplier="251:37" id="bQt-Zd-kHt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="15"/>
+                                <state key="normal" title="proceed">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLt-aa-rBc">
+                                <rect key="frame" x="140.66666666666666" y="698.66666666666663" width="93.666666666666657" height="26.333333333333371"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VLt-aa-rBc" secondAttribute="height" multiplier="25:7" id="9So-EM-9OZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="15"/>
+                                <state key="normal" title="skip for now">
+                                    <color key="titleColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="VLt-aa-rBc" firstAttribute="centerX" secondItem="QjM-hT-bmt" secondAttribute="centerX" id="JB0-bR-cM3"/>
+                            <constraint firstItem="QjM-hT-bmt" firstAttribute="bottom" secondItem="VLt-aa-rBc" secondAttribute="bottom" constant="53" id="Nod-Dh-ouW"/>
+                            <constraint firstItem="RJL-eY-2qF" firstAttribute="centerX" secondItem="QjM-hT-bmt" secondAttribute="centerX" id="aPK-Ay-4yW"/>
+                            <constraint firstItem="1XM-QF-Rqj" firstAttribute="width" secondItem="7O7-2l-Rej" secondAttribute="width" multiplier="0.669333" id="dUW-zZ-IVP"/>
+                            <constraint firstItem="QjM-hT-bmt" firstAttribute="trailing" secondItem="RJL-eY-2qF" secondAttribute="trailing" id="giI-hV-m4e"/>
+                            <constraint firstItem="VLt-aa-rBc" firstAttribute="top" secondItem="1XM-QF-Rqj" secondAttribute="bottom" constant="21" id="kwl-vF-q1n"/>
+                            <constraint firstItem="QjM-hT-bmt" firstAttribute="top" secondItem="RJL-eY-2qF" secondAttribute="top" constant="44" id="qLZ-7V-TgZ"/>
+                            <constraint firstItem="VLt-aa-rBc" firstAttribute="width" secondItem="7O7-2l-Rej" secondAttribute="width" multiplier="0.25" id="tar-dx-VUV"/>
+                            <constraint firstItem="RJL-eY-2qF" firstAttribute="leading" secondItem="QjM-hT-bmt" secondAttribute="leading" id="uys-vd-Gkx"/>
+                            <constraint firstItem="1XM-QF-Rqj" firstAttribute="centerX" secondItem="QjM-hT-bmt" secondAttribute="centerX" id="w2H-Go-mKm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QjM-hT-bmt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HM4-sU-9kp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3568.8000000000002" y="127.83251231527095"/>
         </scene>
     </scenes>
     <resources>
