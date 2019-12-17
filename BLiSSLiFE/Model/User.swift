@@ -17,5 +17,5 @@ struct User{
     var weight=String()
     var number=String()
     var username=String()
-    
+    var parameters = [String:[String]]()
 }

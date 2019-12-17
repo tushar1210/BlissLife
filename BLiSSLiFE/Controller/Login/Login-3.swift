@@ -27,11 +27,11 @@ class Login_3: UIViewController {
     }
 
     @IBAction func login(_ sender: Any) {
-        let params = ["email":userNameTF.text,"password":passwordTF.text]
+        let params:Dictionary<String,Any?> = ["email":userNameTF.text,"password":passwordTF.text]
         let url = URL(string: "https://blisslife.herokuapp.com/users/login")
-
+        
                 
-        Alamofire.request(url!, method: .post, parameters: params as Parameters, encoding: JSONEncoding.default).responseJSON{
+        Alamofire.request(url!, method: .post, parameters: params, encoding: JSONEncoding.default).responseJSON{
             response in
             guard let d = response.value else{print("Fail") ;return}
             let json=JSON(d)
