@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78296FC323A9503D0007FFAF /* Allergies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78296FC223A9503D0007FFAF /* Allergies.swift */; };
 		7848A32B239F69E600778AE5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7848A32A239F69E600778AE5 /* Constants.swift */; };
 		78687C9F2398E41700C8F597 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C952398E41500C8F597 /* CircularStd-Medium.otf */; };
 		78687CA02398E41700C8F597 /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78687C962398E41500C8F597 /* CircularStd-Bold.otf */; };
@@ -55,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		2E249C8F310DC2A5D445FD88 /* Pods_BLiSSLiFE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLiSSLiFE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78296FC223A9503D0007FFAF /* Allergies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allergies.swift; sourceTree = "<group>"; };
 		7848A32A239F69E600778AE5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		78687C952398E41500C8F597 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
 		78687C962398E41500C8F597 /* CircularStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.otf"; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 		78FC2D4523A74A6700EC3F3F /* Parameters */ = {
 			isa = PBXGroup;
 			children = (
+				78296FC223A9503D0007FFAF /* Allergies.swift */,
 				78FC2D4323A74A5800EC3F3F /* BloodPressure.swift */,
 				78FC2D4123A747BD00EC3F3F /* Parameters.swift */,
 			);
@@ -404,6 +407,7 @@
 				787BC49623983FA20066CAC3 /* SceneDelegate.swift in Sources */,
 				787BC4BD239847380066CAC3 /* Extensions.swift in Sources */,
 				787491A423A3526B00177BB0 /* ProfileCell.swift in Sources */,
+				78296FC323A9503D0007FFAF /* Allergies.swift in Sources */,
 				7848A32B239F69E600778AE5 /* Constants.swift in Sources */,
 				78FC2D4423A74A5800EC3F3F /* BloodPressure.swift in Sources */,
 				78FC2D4223A747BD00EC3F3F /* Parameters.swift in Sources */,

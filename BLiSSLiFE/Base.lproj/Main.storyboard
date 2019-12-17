@@ -14,7 +14,7 @@
         <array key="CircularStd-Book.otf">
             <string>CircularStd-Book</string>
         </array>
-        <array key="CircularStd-Medium.otf">
+        <array key="CircularStd-Medium.ttf">
             <string>CircularStd-Medium</string>
         </array>
         <array key="MYRIADPRO-SEMIBOLD.OTF">
@@ -209,29 +209,29 @@
                                 <color key="backgroundColor" red="1" green="0.83529411760000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="DmC-do-n0B">
-                                <rect key="frame" x="50" y="268.66666666666663" width="120.66666666666667" height="177"/>
+                                <rect key="frame" x="50.000000000000007" y="268.66666666666663" width="111.66666666666667" height="168.66666666666666"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g2F-av-cbS">
-                                        <rect key="frame" x="0.0" y="0.0" width="64.333333333333329" height="17"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="58.666666666666664" height="14"/>
                                         <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" textContentType="username"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E-mail" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QZY-5a-ltp">
-                                        <rect key="frame" x="0.0" y="40" width="40" height="17"/>
+                                        <rect key="frame" x="0.0" y="37" width="35.333333333333336" height="15.666666666666664"/>
                                         <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" textContentType="email"/>
                                     </textField>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VSn-em-r6X">
-                                        <rect key="frame" x="0.0" y="80" width="120.66666666666667" height="17"/>
+                                        <rect key="frame" x="0.0" y="75.666666666666671" width="111.66666666666667" height="15.666666666666671"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="+91" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xeq-8s-Saz">
-                                                <rect key="frame" x="0.0" y="0.0" width="24" height="17"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="21.333333333333332" height="15.666666666666666"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
                                                 <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mobile Number" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9FL-oc-f9w">
-                                                <rect key="frame" x="24.000000000000007" y="0.0" width="96.666666666666686" height="17"/>
+                                                <rect key="frame" x="21.333333333333336" y="0.0" width="90.333333333333314" height="15.666666666666666"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
                                                 <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" textContentType="tel"/>
@@ -239,22 +239,22 @@
                                         </subviews>
                                     </stackView>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bUr-q3-rts">
-                                        <rect key="frame" x="0.0" y="120" width="62" height="17"/>
+                                        <rect key="frame" x="0.0" y="114.33333333333333" width="54" height="15.666666666666671"/>
                                         <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" textContentType="password"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WVZ-1P-oav">
-                                        <rect key="frame" x="0.0" y="160" width="115.66666666666667" height="17"/>
+                                        <rect key="frame" x="0.0" y="153" width="102.66666666666667" height="15.666666666666657"/>
                                         <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" textContentType="password"/>
                                     </textField>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="7Zr-bt-gy4">
-                                <rect key="frame" x="50" y="634.33333333333337" width="172" height="82"/>
+                                <rect key="frame" x="50" y="634.33333333333337" width="174" height="82"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7L4-I0-5wy" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="172" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="174" height="31"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="13"/>
                                         <inset key="titleEdgeInsets" minX="19" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -267,7 +267,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LeY-1b-b6V" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="47" width="172" height="35"/>
+                                        <rect key="frame" x="0.0" y="47" width="174" height="35"/>
                                         <color key="backgroundColor" red="0.28235294119999998" green="0.36862745099999999" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="13"/>
                                         <inset key="titleEdgeInsets" minX="19" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -292,7 +292,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="lEf-iF-MPa">
-                                <rect key="frame" x="50" y="490.33333333333331" width="214" height="30"/>
+                                <rect key="frame" x="50" y="490.33333333333331" width="196.66666666666666" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Yl-Yx-SgA">
                                         <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
@@ -302,7 +302,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I accept all terms and conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fl9-EO-EuY">
-                                        <rect key="frame" x="39" y="0.0" width="175" height="30"/>
+                                        <rect key="frame" x="39" y="0.0" width="157.66666666666666" height="30"/>
                                         <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="12"/>
                                         <color key="textColor" red="0.62352941176470589" green="0.62352941176470589" blue="0.62352941176470589" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -855,6 +855,66 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lmd-h8-wHo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4220" y="136.69950738916256"/>
+        </scene>
+        <!--Allergies-->
+        <scene sceneID="mtT-gP-cKb">
+            <objects>
+                <viewController id="vik-11-26x" customClass="Allergies" customModule="BLiSSLiFE" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EVO-Qt-SGJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3SY-Dr-TbT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="611"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PARAMETER 2/3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xj8-yX-cYg">
+                                        <rect key="frame" x="122.66666666666669" y="160" width="130" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="xj8-yX-cYg" secondAttribute="height" multiplier="13:2" id="5Wv-v8-egr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.83529411760000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Allergies you suffer from ?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5o0-fw-9N4">
+                                        <rect key="frame" x="67.666666666666686" y="305.33333333333331" width="240" height="57"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="5o0-fw-9N4" secondAttribute="height" multiplier="80:19" id="iC3-3c-s0I"/>
+                                        </constraints>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="xj8-yX-cYg" firstAttribute="centerX" secondItem="3SY-Dr-TbT" secondAttribute="centerX" id="C80-4Y-GbY"/>
+                                    <constraint firstItem="xj8-yX-cYg" firstAttribute="top" secondItem="3SY-Dr-TbT" secondAttribute="top" constant="160" id="TDv-Lt-pYB"/>
+                                    <constraint firstItem="xj8-yX-cYg" firstAttribute="width" secondItem="3SY-Dr-TbT" secondAttribute="width" multiplier="0.346667" id="XTN-Zf-30H"/>
+                                    <constraint firstItem="5o0-fw-9N4" firstAttribute="width" secondItem="3SY-Dr-TbT" secondAttribute="width" multiplier="0.64" id="btd-Db-lAT"/>
+                                    <constraint firstItem="5o0-fw-9N4" firstAttribute="centerX" secondItem="3SY-Dr-TbT" secondAttribute="centerX" id="enE-xf-Bqc"/>
+                                    <constraint firstItem="5o0-fw-9N4" firstAttribute="top" secondItem="xj8-yX-cYg" secondAttribute="bottom" constant="125.33333333333331" id="kaE-5Q-m2B"/>
+                                    <constraint firstAttribute="width" secondItem="3SY-Dr-TbT" secondAttribute="height" multiplier="375:611" id="pNM-nI-edh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83529411760000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HsS-MN-7TG" firstAttribute="trailing" secondItem="3SY-Dr-TbT" secondAttribute="trailing" id="W3f-Xj-ImZ"/>
+                            <constraint firstItem="3SY-Dr-TbT" firstAttribute="leading" secondItem="HsS-MN-7TG" secondAttribute="leading" id="cXb-WJ-fUm"/>
+                            <constraint firstItem="3SY-Dr-TbT" firstAttribute="width" secondItem="EVO-Qt-SGJ" secondAttribute="width" id="ebY-Ua-EFp"/>
+                            <constraint firstItem="HsS-MN-7TG" firstAttribute="top" secondItem="3SY-Dr-TbT" secondAttribute="top" constant="44" id="hIM-55-PVM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HsS-MN-7TG"/>
+                    </view>
+                    <connections>
+                        <outlet property="bgView" destination="3SY-Dr-TbT" id="mlV-aZ-0RI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DJU-aH-8Pq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4916" y="138.91625615763547"/>
         </scene>
     </scenes>
     <resources>
