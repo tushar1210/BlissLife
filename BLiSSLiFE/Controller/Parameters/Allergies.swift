@@ -25,22 +25,60 @@ class Allergies: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         bgView.roundCorners([.bottomLeft], radius: 80)
-        dustLabel.layer.borderWidth=1
-        dustLabel.layer.borderColor = UIColor.black.cgColor
+        setupButtons(button: dustButton)
+        setupButtons(button: pollenButton)
+        setupButtons(button: peanutsButton)
+        setupButtons(button: soyButton)
+        setupButtons(button: otherButton)
+        otherTF.setUnderLine()
         
     }
     
+    func setupButtons(button:UIButton){
+        button.layer.cornerRadius = button.frame.width/2
+        button.clipsToBounds=true
+        button.layer.borderWidth=1
+        button.layer.borderColor = UIColor.black.cgColor
+        button.backgroundColor = .clear
+    }
 
     
     @IBAction func otherButton(_ sender: Any) {
+
+        if otherButton.backgroundColor == .clear{
+            otherButton.backgroundColor = .systemYellow
+        }else{
+            otherButton.backgroundColor = .clear
+        }
+        
     }
     @IBAction func soyButton(_ sender: Any) {
+        if soyButton.backgroundColor == .clear{
+            soyButton.backgroundColor = .systemYellow
+        }else{
+            soyButton.backgroundColor = .clear
+        }
     }
     @IBAction func peanutsButton(_ sender: Any) {
+        if peanutsButton.backgroundColor == .clear{
+            peanutsButton.backgroundColor = .systemYellow
+        }else{
+            peanutsButton.backgroundColor = .clear
+        }
     }
     @IBAction func pollenButton(_ sender: Any) {
+        if pollenButton.backgroundColor == .clear{
+            pollenButton.backgroundColor = .systemYellow
+        }else{
+            pollenButton.backgroundColor = .clear
+        }
     }
     @IBAction func dustButton(_ sender: Any) {
+        if dustButton.backgroundColor == .clear{
+            dustButton.backgroundColor = .systemYellow
+        }else{
+            dustButton.backgroundColor = .clear
+        }
     }
     
 }
