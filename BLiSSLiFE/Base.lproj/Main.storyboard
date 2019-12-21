@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NsI-Bd-D2a">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vik-11-26x">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -14,7 +14,7 @@
         <array key="CircularStd-Book.otf">
             <string>CircularStd-Book</string>
         </array>
-        <array key="CircularStd-Medium.ttf">
+        <array key="CircularStd-Medium.otf">
             <string>CircularStd-Medium</string>
         </array>
         <array key="MYRIADPRO-SEMIBOLD.OTF">
@@ -292,7 +292,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="lEf-iF-MPa">
-                                <rect key="frame" x="50" y="490.33333333333331" width="196.66666666666666" height="30"/>
+                                <rect key="frame" x="49.999999999999986" y="490.33333333333331" width="196.66666666666666" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Yl-Yx-SgA">
                                         <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
@@ -886,6 +886,95 @@
                                         <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Allergies" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQ8-pR-7HF">
+                                        <rect key="frame" x="147" y="387" width="80" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxo-ng-T5P">
+                                        <rect key="frame" x="116.66666666666652" y="430" width="9" height="9"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="dustButton:" destination="vik-11-26x" eventType="touchUpInside" id="jXj-AE-cCi"/>
+                                        </connections>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="dust" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eik-8k-ekc">
+                                        <rect key="frame" x="147" y="419" width="80" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUA-mk-N5Y">
+                                        <rect key="frame" x="116" y="451" width="9" height="9"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="pollenButton:" destination="vik-11-26x" eventType="touchUpInside" id="jQb-0V-d3o"/>
+                                        </connections>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="pollen grain" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vil-fh-cMr">
+                                        <rect key="frame" x="146" y="440" width="80" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gL1-26-0mP">
+                                        <rect key="frame" x="116" y="472" width="9" height="9"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="peanutsButton:" destination="vik-11-26x" eventType="touchUpInside" id="I2A-Yf-7LZ"/>
+                                        </connections>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="peanuts" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="doe-td-1WK">
+                                        <rect key="frame" x="146" y="461" width="80" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAK-xM-cN7">
+                                        <rect key="frame" x="116" y="493.66666666666663" width="9" height="9"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="soyButton:" destination="vik-11-26x" eventType="touchUpInside" id="baR-3l-hpg"/>
+                                        </connections>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="soy" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HN8-4H-HBV">
+                                        <rect key="frame" x="146" y="483" width="80" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Lf-Rp-sH2">
+                                        <rect key="frame" x="116" y="514" width="9" height="9"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="otherButton:" destination="vik-11-26x" eventType="touchUpInside" id="i1b-Jd-ARh"/>
+                                        </connections>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="others" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAB-KL-xFA">
+                                        <rect key="frame" x="147" y="503" width="45" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XdH-lQ-kjS">
+                                        <rect key="frame" x="200" y="495" width="97" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
@@ -904,12 +993,22 @@
                             <constraint firstItem="HsS-MN-7TG" firstAttribute="trailing" secondItem="3SY-Dr-TbT" secondAttribute="trailing" id="W3f-Xj-ImZ"/>
                             <constraint firstItem="3SY-Dr-TbT" firstAttribute="leading" secondItem="HsS-MN-7TG" secondAttribute="leading" id="cXb-WJ-fUm"/>
                             <constraint firstItem="3SY-Dr-TbT" firstAttribute="width" secondItem="EVO-Qt-SGJ" secondAttribute="width" id="ebY-Ua-EFp"/>
-                            <constraint firstItem="HsS-MN-7TG" firstAttribute="top" secondItem="3SY-Dr-TbT" secondAttribute="top" constant="44" id="hIM-55-PVM"/>
+                            <constraint firstAttribute="top" secondItem="3SY-Dr-TbT" secondAttribute="top" id="hIM-55-PVM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HsS-MN-7TG"/>
                     </view>
                     <connections>
                         <outlet property="bgView" destination="3SY-Dr-TbT" id="mlV-aZ-0RI"/>
+                        <outlet property="dustButton" destination="bxo-ng-T5P" id="jVl-Co-X1G"/>
+                        <outlet property="dustLabel" destination="eik-8k-ekc" id="Lyc-9T-cWd"/>
+                        <outlet property="otherButton" destination="9Lf-Rp-sH2" id="uaY-xr-Gw9"/>
+                        <outlet property="otherTF" destination="XdH-lQ-kjS" id="mDc-lR-wGW"/>
+                        <outlet property="peanutsButton" destination="gL1-26-0mP" id="KoH-3n-raq"/>
+                        <outlet property="peanutsLabel" destination="doe-td-1WK" id="dRO-mJ-kKL"/>
+                        <outlet property="pollenButton" destination="qUA-mk-N5Y" id="1Hp-J3-PyT"/>
+                        <outlet property="pollenLabel" destination="vil-fh-cMr" id="Cyw-XW-ESb"/>
+                        <outlet property="soyButton" destination="MAK-xM-cN7" id="WFV-aP-Dtf"/>
+                        <outlet property="soyLabel" destination="HN8-4H-HBV" id="dn1-ar-NwH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DJU-aH-8Pq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
