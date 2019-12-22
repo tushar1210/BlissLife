@@ -38,7 +38,7 @@ class Allergies: UIViewController {
         button.layer.cornerRadius = button.frame.width/2
         button.clipsToBounds=true
         button.layer.borderWidth=1
-        button.layer.borderColor = UIColor.black.cgColor
+        button.layer.borderColor = UIColor.gray.cgColor
         button.backgroundColor = .clear
     }
 
