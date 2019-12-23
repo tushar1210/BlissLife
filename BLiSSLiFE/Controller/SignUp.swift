@@ -70,7 +70,17 @@ class SignUp: UIViewController {
         //TODO :- hit signup api
         
         if checkFilled(){
-            
+            let params:Dictionary<String,Any?> = ["username":usernameTF.text,"email":emailTF.text,"number":phoneTF.text,"password":passwordTF.text]
+            let url = URL(string: "https://blisslife.herokuapp.com/users")!
+            Alamofire.request(url, method: .post, parameters: params, encoding: JSONEncoding.default).responseJSON{
+                response in
+                guard let d = response.value else{print("Fail") ;return}
+                let json=JSON(d)
+                user.username = json["user"]["username"].stringValue
+                user.email = json["user"]["email"].stringValue
+                user.number = json["user"]["number"].stringValue
+                
+            }
         }
     }
     @IBAction func googleButton(_ sender: Any) {
