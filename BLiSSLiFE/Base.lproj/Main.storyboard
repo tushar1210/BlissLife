@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vik-11-26x">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uJS-c9-MmA">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -14,7 +14,7 @@
         <array key="CircularStd-Book.otf">
             <string>CircularStd-Book</string>
         </array>
-        <array key="CircularStd-Medium.ttf">
+        <array key="CircularStd-Medium.otf">
             <string>CircularStd-Medium</string>
         </array>
         <array key="MYRIADPRO-SEMIBOLD.OTF">
@@ -1044,10 +1044,10 @@
             </objects>
             <point key="canvasLocation" x="4916" y="138.91625615763547"/>
         </scene>
-        <!--Allergies-->
+        <!--Drugs-->
         <scene sceneID="iJK-Wf-0EV">
             <objects>
-                <viewController id="uJS-c9-MmA" customClass="Allergies" customModule="BLiSSLiFE" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="uJS-c9-MmA" customClass="Drugs" customModule="BLiSSLiFE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="em0-id-CWi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1090,10 +1090,57 @@
                                             <action selector="go:" destination="NsI-Bd-D2a" eventType="touchUpInside" id="9kr-ID-QzN"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kba-qB-de2">
-                                        <rect key="frame" x="164" y="359" width="46" height="30"/>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uys-LX-X8g" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
+                                        <rect key="frame" x="148" y="350" width="76.666666666666657" height="30.666666666666664"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="13"/>
+                                        <state key="normal" title="Alcohol">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="alcohol:" destination="uJS-c9-MmA" eventType="touchUpInside" id="8oM-rH-vO8"/>
+                                            <action selector="male:" destination="Z0Y-cj-tOs" eventType="touchUpInside" id="0f1-8o-DE7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DTb-KA-jJ2" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
+                                        <rect key="frame" x="148" y="396" width="76.666666666666657" height="30.666666666666664"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="13"/>
+                                        <state key="normal" title="Tobacco">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="male:" destination="Z0Y-cj-tOs" eventType="touchUpInside" id="Ikj-13-yq0"/>
+                                            <action selector="tobacco:" destination="uJS-c9-MmA" eventType="touchUpInside" id="44h-Xi-YLt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEN-eG-oWy" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
+                                        <rect key="frame" x="148" y="441" width="76.666666666666657" height="30.666666666666664"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="13"/>
+                                        <state key="normal" title="Drugs">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="drugs:" destination="uJS-c9-MmA" eventType="touchUpInside" id="Kbq-JE-w6d"/>
+                                            <action selector="male:" destination="Z0Y-cj-tOs" eventType="touchUpInside" id="Rrs-ZT-nis"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OzB-mW-tc8" customClass="CustomButton" customModule="BLiSSLiFE" customModuleProvider="target">
+                                        <rect key="frame" x="115" y="486" width="143" height="30.666666666666664"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="13"/>
+                                        <state key="normal" title="None of the above">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="male:" destination="Z0Y-cj-tOs" eventType="touchUpInside" id="qO9-nj-w1m"/>
+                                            <action selector="none:" destination="uJS-c9-MmA" eventType="touchUpInside" id="prF-3K-wHR"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -1118,7 +1165,11 @@
                         <viewLayoutGuide key="safeArea" id="AmH-XZ-dWw"/>
                     </view>
                     <connections>
-                        <outlet property="bgView" destination="rOH-8e-jnd" id="1Yx-5J-TSk"/>
+                        <outlet property="alcohol" destination="uys-LX-X8g" id="qaP-pa-CXC"/>
+                        <outlet property="bgVeiw" destination="rOH-8e-jnd" id="4oT-8Y-HSQ"/>
+                        <outlet property="drugs" destination="IEN-eG-oWy" id="zJu-5F-dbL"/>
+                        <outlet property="none" destination="OzB-mW-tc8" id="NsQ-7G-Omt"/>
+                        <outlet property="tobacco" destination="DTb-KA-jJ2" id="zGc-a1-HHb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HME-d9-Umd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -54,7 +54,7 @@ final class CustomButton: UIButton {
 
     override func layoutSubviews() {
         super.layoutSubviews()
-
+        
         if shadowLayer == nil {
             shadowLayer = CAShapeLayer()
             shadowLayer.path = UIBezierPath(roundedRect: bounds, cornerRadius: self.layer.cornerRadius).cgPath
@@ -77,6 +77,9 @@ final class CustomButton: UIButton {
     }
     func bgColor(color:UIColor){
         shadowLayer.fillColor = color.cgColor
+    }
+    func getBgColor()->UIColor{
+        return  UIColor(cgColor: shadowLayer.fillColor!)  
     }
 
 }

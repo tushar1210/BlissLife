@@ -48,6 +48,7 @@
 		787BC4BB2398447D0066CAC3 /* MYRIADPRO-REGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 787BC4B12398447D0066CAC3 /* MYRIADPRO-REGULAR.OTF */; };
 		787BC4BD239847380066CAC3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787BC4BC239847380066CAC3 /* Extensions.swift */; };
 		787BC4BF2398AD000066CAC3 /* Login-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787BC4BE2398AD000066CAC3 /* Login-1.swift */; };
+		7893C68D23B1309E006E4509 /* Drugs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7893C68C23B1309E006E4509 /* Drugs.swift */; };
 		78B3A6D423A1E7100059B3AF /* PersonalDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B3A6D323A1E7100059B3AF /* PersonalDetails.swift */; };
 		78FC2D4223A747BD00EC3F3F /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FC2D4123A747BD00EC3F3F /* Parameters.swift */; };
 		78FC2D4423A74A5800EC3F3F /* BloodPressure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FC2D4323A74A5800EC3F3F /* BloodPressure.swift */; };
@@ -100,6 +101,7 @@
 		787BC4B12398447D0066CAC3 /* MYRIADPRO-REGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYRIADPRO-REGULAR.OTF"; sourceTree = "<group>"; };
 		787BC4BC239847380066CAC3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		787BC4BE2398AD000066CAC3 /* Login-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login-1.swift"; sourceTree = "<group>"; };
+		7893C68C23B1309E006E4509 /* Drugs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drugs.swift; sourceTree = "<group>"; };
 		78B3A6D323A1E7100059B3AF /* PersonalDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetails.swift; sourceTree = "<group>"; };
 		78FC2D4123A747BD00EC3F3F /* Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
 		78FC2D4323A74A5800EC3F3F /* BloodPressure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressure.swift; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 		78FC2D4523A74A6700EC3F3F /* Parameters */ = {
 			isa = PBXGroup;
 			children = (
+				7893C68C23B1309E006E4509 /* Drugs.swift */,
 				78296FC223A9503D0007FFAF /* Allergies.swift */,
 				78FC2D4323A74A5800EC3F3F /* BloodPressure.swift */,
 				78FC2D4123A747BD00EC3F3F /* Parameters.swift */,
@@ -411,6 +414,7 @@
 				7848A32B239F69E600778AE5 /* Constants.swift in Sources */,
 				78FC2D4423A74A5800EC3F3F /* BloodPressure.swift in Sources */,
 				78FC2D4223A747BD00EC3F3F /* Parameters.swift in Sources */,
+				7893C68D23B1309E006E4509 /* Drugs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
