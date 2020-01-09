@@ -79,7 +79,7 @@ class SignUp: UIViewController {
                 user.username = json["user"]["username"].stringValue
                 user.email = json["user"]["email"].stringValue
                 user.number = json["user"]["number"].stringValue
-                
+                user.uid = json["user"]["_id"].stringValue
             }
         }
     }
