@@ -50,6 +50,7 @@
 		787BC4BF2398AD000066CAC3 /* Login-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787BC4BE2398AD000066CAC3 /* Login-1.swift */; };
 		7893C68D23B1309E006E4509 /* Drugs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7893C68C23B1309E006E4509 /* Drugs.swift */; };
 		78B3A6D423A1E7100059B3AF /* PersonalDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B3A6D323A1E7100059B3AF /* PersonalDetails.swift */; };
+		78C73F2423E299BE005FBBAB /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C73F2323E299BE005FBBAB /* Food.swift */; };
 		78FC2D4223A747BD00EC3F3F /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FC2D4123A747BD00EC3F3F /* Parameters.swift */; };
 		78FC2D4423A74A5800EC3F3F /* BloodPressure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FC2D4323A74A5800EC3F3F /* BloodPressure.swift */; };
 		843C8086BD3329EC9AD48BFA /* Pods_BLiSSLiFE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E249C8F310DC2A5D445FD88 /* Pods_BLiSSLiFE.framework */; };
@@ -103,6 +104,7 @@
 		787BC4BE2398AD000066CAC3 /* Login-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login-1.swift"; sourceTree = "<group>"; };
 		7893C68C23B1309E006E4509 /* Drugs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drugs.swift; sourceTree = "<group>"; };
 		78B3A6D323A1E7100059B3AF /* PersonalDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetails.swift; sourceTree = "<group>"; };
+		78C73F2323E299BE005FBBAB /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		78FC2D4123A747BD00EC3F3F /* Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
 		78FC2D4323A74A5800EC3F3F /* BloodPressure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressure.swift; sourceTree = "<group>"; };
 		9A519990120CC56753CDB864 /* Pods-BLiSSLiFE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLiSSLiFE.release.xcconfig"; path = "Target Support Files/Pods-BLiSSLiFE/Pods-BLiSSLiFE.release.xcconfig"; sourceTree = "<group>"; };
@@ -230,9 +232,10 @@
 		787BC4C02398AD070066CAC3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				78FC2D4523A74A6700EC3F3F /* Parameters */,
+				78C73F2323E299BE005FBBAB /* Food.swift */,
 				78B3A6D323A1E7100059B3AF /* PersonalDetails.swift */,
 				78753844239AED25006A6EFF /* SignUp.swift */,
+				78FC2D4523A74A6700EC3F3F /* Parameters */,
 				78753848239D6DE3006A6EFF /* Login */,
 			);
 			path = Controller;
@@ -413,6 +416,7 @@
 				78296FC323A9503D0007FFAF /* Allergies.swift in Sources */,
 				7848A32B239F69E600778AE5 /* Constants.swift in Sources */,
 				78FC2D4423A74A5800EC3F3F /* BloodPressure.swift in Sources */,
+				78C73F2423E299BE005FBBAB /* Food.swift in Sources */,
 				78FC2D4223A747BD00EC3F3F /* Parameters.swift in Sources */,
 				7893C68D23B1309E006E4509 /* Drugs.swift in Sources */,
 			);

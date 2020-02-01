@@ -24,7 +24,24 @@ extension UIView {
         self.layer.mask = mask
     }
     
-    // view.roundCorners([.topLeft, .topRight, .bottomRight], radius: 6)
+    
+    func addShadow(){
+        var shadowLayer : CAShapeLayer
+        shadowLayer = CAShapeLayer()
+        shadowLayer.path = UIBezierPath(roundedRect: self.bounds, cornerRadius: self.layer.cornerRadius).cgPath
+        if self.backgroundColor != nil {
+            shadowLayer.fillColor = self.backgroundColor?.cgColor
+        }
+        else{
+            shadowLayer.fillColor = UIColor.white.cgColor
+        }
+        shadowLayer.shadowColor = UIColor.gray.cgColor
+        shadowLayer.shadowPath = shadowLayer.path
+        shadowLayer.shadowOffset = CGSize(width: 0.0, height: 3.0)
+        shadowLayer.shadowOpacity = 0.3
+        shadowLayer.shadowRadius = 2
+        layer.insertSublayer(shadowLayer, at: 0)
+    }
 }
 
 class SegueFromLeft: UIStoryboardSegue {
@@ -47,6 +64,8 @@ class SegueFromLeft: UIStoryboardSegue {
                         )
     }
 }
+
+
 
 final class CustomButton: UIButton {
 
