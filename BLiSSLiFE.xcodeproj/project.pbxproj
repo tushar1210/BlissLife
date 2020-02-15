@@ -236,7 +236,6 @@
 			isa = PBXGroup;
 			children = (
 				78F2CFB423F7D506007674C9 /* Food */,
-				78B3A6D323A1E7100059B3AF /* PersonalDetails.swift */,
 				78FC2D4523A74A6700EC3F3F /* Parameters */,
 				78753848239D6DE3006A6EFF /* Login */,
 			);
@@ -255,6 +254,7 @@
 		78FC2D4523A74A6700EC3F3F /* Parameters */ = {
 			isa = PBXGroup;
 			children = (
+				78B3A6D323A1E7100059B3AF /* PersonalDetails.swift */,
 				7893C68C23B1309E006E4509 /* Drugs.swift */,
 				78296FC223A9503D0007FFAF /* Allergies.swift */,
 				78FC2D4323A74A5800EC3F3F /* BloodPressure.swift */,
